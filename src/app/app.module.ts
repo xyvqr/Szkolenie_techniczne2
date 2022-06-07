@@ -11,6 +11,11 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import {AppRoutingModule} from "./app-routing.module";
 import { ONasComponent } from './o-nas/o-nas.component';
+import { ToyotaComponent } from './toyota/toyota.component';
+import { HyundaiComponent } from './hyundai/hyundai.component';
+import { MazdaComponent } from './mazda/mazda.component';
+import { MercedesComponent } from './mercedes/mercedes.component';
+import { BmwComponent } from './bmw/bmw.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +25,12 @@ import { ONasComponent } from './o-nas/o-nas.component';
     ContactComponent,
     LoginComponent,
     RegisterComponent,
-    ONasComponent
+    ONasComponent,
+    ToyotaComponent,
+    HyundaiComponent,
+    MazdaComponent,
+    MercedesComponent,
+    BmwComponent
   ],
   imports: [
     BrowserModule,
