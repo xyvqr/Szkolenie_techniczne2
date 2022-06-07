@@ -1,16 +1,22 @@
 <header class="p-3 bg-dark text-white">
   <div class="container">
     <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-      <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-        <li><a class="navbar-brand" href="#" >Home</a></li>
-        <li><a href="#" class="nav-link px-2 text-white">Wynajem auta</a></li>
-        <li><a href="#" class="nav-link px-2 text-white">Cennik</a></li>
-        <li><a href="#" class="nav-link px-2 text-white">Kontakt</a></li>
+      <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0" href="#">
+        <li>
+          <a class="navbar-brand" routerLink="/" routerLinkActive="active" >Home</a>
+        </li>
+        <li>
+          <a class="nav-link px-2 text-white" routerLink="/rent" routerLinkActive="active">Wynajem auta</a>
+        </li>
+        <li>
+          <a href="#" class="nav-link px-2 text-white" routerLink="/price" routerLinkActive="active">Cennik</a>
+        </li>
+        <li><a href="#" class="nav-link px-2 text-white" routerLink="/contact" routerLinkActive="active">Kontakt</a></li>
       </ul>
 
       <div class="text-end">
-        <button type="button" class="btn btn-outline-light me-2">Login</button>
-        <button type="button" class="btn btn-warning">Zarejestruj się</button>
+        <button type="button" class="btn btn-outline-light me-2" routerLink="/login" routerLinkActive="active">Login</button>
+        <button type="button" class="btn btn-warning" routerLink="/register" routerLinkActive="active">Zarejestruj się</button>
       </div>
     </div>
   </div>
