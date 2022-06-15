@@ -12,7 +12,6 @@ import { RegisterComponent } from './register/register.component';
 import {AppRoutingModule} from "./app-routing.module";
 import { ONasComponent } from './o-nas/o-nas.component';
 import { ToyotaComponent } from './toyota/toyota.component';
-import { HyundaiComponent } from './hyundai/hyundai.component';
 import { MazdaComponent } from './mazda/mazda.component';
 import { MercedesComponent } from './mercedes/mercedes.component';
 import { BmwComponent } from './bmw/bmw.component';
@@ -27,7 +26,6 @@ import { BmwComponent } from './bmw/bmw.component';
     RegisterComponent,
     ONasComponent,
     ToyotaComponent,
-    HyundaiComponent,
     MazdaComponent,
     MercedesComponent,
     BmwComponent
